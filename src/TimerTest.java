@@ -11,7 +11,7 @@ public class TimerTest {
 
 		// construct a timer that calls the listener
 		// once every 10 seconds
-		Timer t = new Timer(10000, listener);
+		Timer t = new Timer(1000, listener);
 		t.start();
 
 		JOptionPane.showMessageDialog(null, "Quit program?");
